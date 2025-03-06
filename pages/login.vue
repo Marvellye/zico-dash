@@ -1,17 +1,17 @@
 <template>
-  <div class="min-h-screen flex items-center justify-center">
-    <UCard class="w-full max-w-md">
+  <div class="min-h-screen flex items-center justify-center dark:bg-primary-dark">
+    <UCard class="w-full max-w-md dark:bg-secondary-dark dark:text-text-color-dark">
       <template #header>
         <h1 class="text-2xl font-bold text-center">Welcome Back</h1>
       </template>
-      
+
       <div class="flex flex-col items-center gap-4">
-        <p class="text-gray-600 text-center">
+        <p class="text-gray-600 dark:text-gray-300 text-center">
           Sign in to access your dashboard
         </p>
-        
+
         <UButton
-          color="primary"
+          color="black"
           class="w-full"
           @click="handleGoogleLogin"
         >
